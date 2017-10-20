@@ -1,0 +1,11 @@
+Package: ACT
+Type: Package
+Title: Interfaces to the ACT APIs
+Version: 0.0.1
+Author: Billy Buchanan
+Maintainer: Billy Buchanan <billy.buchanan@fayette.kyschools.us>
+Description: Wrappers to call/query the ACT APIs to look up school codes
+License: GPL >= 2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
