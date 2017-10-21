@@ -14,5 +14,5 @@ codes that can be passed to the ACT API and the values are the common nmaes.
 Function to return all valid country codes used by the ACT API
 }
 \examples{
-ACT::validCountries()
+validCountries()
 }

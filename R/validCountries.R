@@ -3,7 +3,7 @@
 #' @return Returns a named character vector.  The names are the valid country
 #' codes that can be passed to the ACT API and the values are the common nmaes.
 #' @importFrom jsonlite fromJSON
-#' @examples ACT::validCountries()
+#' @examples validCountries()
 #' @export validCountries
 validCountries <- function() {
 

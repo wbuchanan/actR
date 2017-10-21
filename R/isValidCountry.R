@@ -1,11 +1,10 @@
 #' @title Internal function for validating entries
 #' @description Function used to test whether a valid country code was passed
-#' @importFrom ACT validCountries
 #' @return Returns a boolean indicating if the country code passed was valid
 #' @param countryCode is the country code value being validated
-
+#'
 isValidCountry <- function(countryCode) {
-	countries <- ACT::validCountries()
+	countries <- validCountries()
 	if (!(countryCode %in% names(countries)) && !(countryCode %in% countries)) {
 		return(FALSE)
 	} else if (countryCode %in% countries) {

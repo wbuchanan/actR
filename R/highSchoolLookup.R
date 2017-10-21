@@ -6,17 +6,17 @@
 #' @param city Optional - name of the city where the high school is located
 #' @param name Optional - name of the school to lookup
 #' @import httr
+#' @import magrittr
 #' @importFrom jsonlite fromJSON
-#' @import
 #' @return Returns a data frame containing the response payload
-#' @examples \run{
+#' @examples
 #' # Get all the high schools located in Kentucky
-#' kyHighSchools <- ACT::highSchoolLookup("US", "KY")
+#' kyHighSchools <- actR::highSchoolLookup("US", "KY")
 #'
 #' # Display part of the dataframe
 #' head(kyHighSchools)
 #'
-#' }
+#'
 #' @export highSchoolLookup
 #   Build and Reload Package:  'Cmd + Shift + B'
 #   Check Package:             'Cmd + Shift + E'

@@ -23,12 +23,11 @@ Provides a simple function to form/request high school lookup
 codes from the ACT API
 }
 \examples{
-\\run{
 # Get all the high schools located in Kentucky
-kyHighSchools <- ACT::highSchoolLookup("US", "KY")
+kyHighSchools <- actR::highSchoolLookup("US", "KY")
 
 # Display part of the dataframe
 head(kyHighSchools)
 
-}
+
 }
